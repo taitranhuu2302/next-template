@@ -50,7 +50,7 @@ function LoginForm({
           message: response.error
         });
       } else {
-        router.push('/');
+        router.push('/dashboard');
         toast('Welcome back!', {
           description: 'You have successfully logged in'
         });
